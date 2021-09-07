@@ -102,7 +102,7 @@ const Contact = ({ idProps }) => {
               </label>
             </div>
             <ReCAPTCHA
-              sitekey="6LdBHUwcAAAAAGWFb1mCt70S-XmuzgPKfm84nbB1"
+              sitekey="6LdHrE0cAAAAADXEmrUhd9HDXEDKfGv8Z1-ScMSJ"
               className="my-3"
               onChange={(value) => console.log(value)}
             />
