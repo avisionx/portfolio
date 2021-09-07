@@ -3,14 +3,14 @@ import React from 'react';
 const ProjectCard = ({ card }) => {
   return (
     <div className="col-12 col-lg-4 pb-3 pb-md-4 mt-2">
-      <div className="card shadow border-0">
+      <div className="card shadow border-0 h-100">
         <img
           // eslint-disable-next-line
           src={require(`../static/projectcompressed/${card.img}`)}
           className="card-img-top"
           alt=""
         />
-        <div className="card-body px-3 pb-3 pt-2">
+        <div className="card-body px-3 pb-3 pt-2 d-flex flex-column">
           <h5 className="mb-0 font-weight-bold">{card.title}</h5>
           <p className="mb-0 small">
             {card.tags.map((data) => (
@@ -20,7 +20,7 @@ const ProjectCard = ({ card }) => {
             ))}
           </p>
           <p className="small mb-1 mt-1">{card.desc}</p>
-          <div className="row pt-2">
+          <div className="row pt-2 mt-auto">
             {card.newlook && (
               <div className="col pr-2">
                 <a
