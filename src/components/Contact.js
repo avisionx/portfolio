@@ -9,7 +9,9 @@ const Contact = ({ idProps }) => {
     email: '',
     message: '',
   });
-  const [isSent, setIsSent] = useState(false);
+  const [isSent, setIsSent] = useState('');
+  const [isVerified, setIsVerified] = useState(null);
+  const [isError, setIsError] = useState(false);
 
   const handleChange = (event) => {
     setIsSent(false);
@@ -24,17 +26,23 @@ const Contact = ({ idProps }) => {
 
   function contactme(event) {
     event.preventDefault();
-    const { name, email, message } = state;
-    const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLScgIe3UPagt8uKHvpUPpnMfFhrhdYlbxS2_cF5tDB9x0ltu1g/formResponse?entry.129154247=${name}&entry.815887852=${email}&entry.500869233=${message}`;
-    const xmlHttp = new XMLHttpRequest();
-    xmlHttp.open('GET', formUrl);
-    xmlHttp.send(null);
-    setIsSent(true);
-    setState({
-      name: '',
-      email: '',
-      message: '',
-    });
+    if (isVerified) {
+      const { name, email, message } = state;
+      const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLScgIe3UPagt8uKHvpUPpnMfFhrhdYlbxS2_cF5tDB9x0ltu1g/formResponse?entry.129154247=${name}&entry.815887852=${email}&entry.500869233=${message}`;
+      const xmlHttp = new XMLHttpRequest();
+      xmlHttp.open('GET', formUrl);
+      xmlHttp.send(null);
+      setIsSent('Message Sent!');
+      setIsError(false);
+      setState({
+        name: '',
+        email: '',
+        message: '',
+      });
+    } else {
+      setIsError(true);
+      setIsSent('Captcha Verify!');
+    }
   }
 
   return (
@@ -104,7 +112,7 @@ const Contact = ({ idProps }) => {
             <ReCAPTCHA
               sitekey="6LdHrE0cAAAAADXEmrUhd9HDXEDKfGv8Z1-ScMSJ"
               className="my-3"
-              onChange={(value) => console.log(value)}
+              onChange={(value) => setIsVerified(value)}
             />
             <div className="d-flex">
               <button
@@ -114,11 +122,11 @@ const Contact = ({ idProps }) => {
                 Submit
               </button>
               <div
-                className={`mb-0 ml-auto d-flex align-items-center small border-0 py-0 text-uppercase alert alert-success hidden ${
-                  isSent ? '' : 'hide'
-                }`}
+                className={`mb-0 ml-auto d-flex align-items-center small border-0 py-0 text-uppercase alert ${
+                  isError ? 'alert-danger' : 'alert-success'
+                } hidden ${isSent ? '' : 'hide'}`}
               >
-                Success!
+                {isSent}
               </div>
             </div>
           </form>
