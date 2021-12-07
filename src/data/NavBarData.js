@@ -1,5 +1,9 @@
 const NavBarLinks = [
   {
+    text: 'My Jams',
+    link: '#myjams',
+  },
+  {
     text: 'Projects',
     link: '#projects',
   },
