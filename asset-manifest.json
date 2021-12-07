@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e78c34ac.chunk.css",
+    "main.js": "/static/js/main.911712c0.chunk.js",
+    "main.js.map": "/static/js/main.911712c0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c86eeb02.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c86eeb02.js.map",
+    "static/js/2.41c993b8.chunk.js": "/static/js/2.41c993b8.chunk.js",
+    "static/js/2.41c993b8.chunk.js.map": "/static/js/2.41c993b8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ae9ec0243d65033af40e784edecf5ad1.js": "/precache-manifest.ae9ec0243d65033af40e784edecf5ad1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e78c34ac.chunk.css.map": "/static/css/main.e78c34ac.chunk.css.map",
+    "static/js/2.41c993b8.chunk.js.LICENSE.txt": "/static/js/2.41c993b8.chunk.js.LICENSE.txt",
+    "static/media/calendar.jpg": "/static/media/calendar.a6d73e17.jpg",
+    "static/media/chat.svg": "/static/media/chat.fded8469.svg",
+    "static/media/dsc.jpg": "/static/media/dsc.8f9f536f.jpg",
+    "static/media/esya-blogs.jpg": "/static/media/esya-blogs.3baaea05.jpg",
+    "static/media/fairfrog.jpg": "/static/media/fairfrog.5d40a772.jpg",
+    "static/media/ia.jpg": "/static/media/ia.e76c1435.jpg",
+    "static/media/lampooni.jpg": "/static/media/lampooni.bac1ec30.jpg",
+    "static/media/launch.jpg": "/static/media/launch.6bea093a.jpg",
+    "static/media/lms.jpg": "/static/media/lms.cadceffa.jpg",
+    "static/media/mywanderlust.jpg": "/static/media/mywanderlust.494a78df.jpg",
+    "static/media/custom.scss": "/static/media/next.35d298c4.svg",
+    "static/media/odyssey.jpg": "/static/media/odyssey.9a047efd.jpg",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.40fc0650.jpg",
+    "static/media/snakeblocks.jpg": "/static/media/snakeblocks.b43851d8.jpg",
+    "static/media/sourcerer-logo.svg": "/static/media/sourcerer-logo.19c26af4.svg",
+    "static/media/voyage.jpg": "/static/media/voyage.acef5691.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c86eeb02.js",
+    "static/js/2.41c993b8.chunk.js",
+    "static/css/main.e78c34ac.chunk.css",
+    "static/js/main.911712c0.chunk.js"
+  ]
+}
