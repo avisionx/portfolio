@@ -5,7 +5,7 @@ const LiveWebsitesContent = [
     tags: ['flask', 'python', 'frontend', 'backend', 'ui/ux'],
     desc:
       'As website head designed and developed website for annual cultural fest of IIITD.',
-    website: 'https://odyssey.iiitd.edu.in/',
+    website: 'https://odyssey20iiitd.herokuapp.com/',
     github: 'https://github.com/avisionx/odyssey20',
   },
   {
