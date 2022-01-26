@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba653c5c6c9045c57c3ae96ef3f28bc0",
+    "revision": "237995461a7fa9f8702c99d2a6881e4c",
     "url": "/index.html"
   },
   {
-    "revision": "b068949364da24dbb2ac",
+    "revision": "3859e6508fb9dfdef324",
     "url": "/static/css/main.5b573ae6.chunk.css"
   },
   {
-    "revision": "e55c52976506fc90b82b",
-    "url": "/static/js/2.41c993b8.chunk.js"
+    "revision": "56ce53bdeffb05c2d9cb",
+    "url": "/static/js/2.cf395026.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.41c993b8.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.cf395026.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b068949364da24dbb2ac",
-    "url": "/static/js/main.8f1cfc7b.chunk.js"
+    "revision": "3859e6508fb9dfdef324",
+    "url": "/static/js/main.81e0eece.chunk.js"
   },
   {
     "revision": "b1bbd0e436ea6fac861a",
     "url": "/static/js/runtime-main.c86eeb02.js"
+  },
+  {
+    "revision": "21656f499cf0c61bdef120af873443c5",
+    "url": "/static/media/arham.21656f49.jpg"
   },
   {
     "revision": "a6d73e17e254195dd0b26c986b649b94",
@@ -32,8 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/chat.fded8469.svg"
   },
   {
+    "revision": "da8a9ecd232b9d6b4070f9327a4dc425",
+    "url": "/static/media/djb.da8a9ecd.jpg"
+  },
+  {
     "revision": "8f9f536f91c21eada3825fae91ecb97d",
     "url": "/static/media/dsc.8f9f536f.jpg"
+  },
+  {
+    "revision": "14c822060695574943070d323861021f",
+    "url": "/static/media/ecosaviour.14c82206.jpg"
   },
   {
     "revision": "3baaea0514e7b02f3215830fe2d1e9d8",
@@ -72,8 +84,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/odyssey.9a047efd.jpg"
   },
   {
-    "revision": "40fc0650c5f3212e838d882036811059",
-    "url": "/static/media/profile-pic.40fc0650.jpg"
+    "revision": "b841935e33101301994dbb850f3961f2",
+    "url": "/static/media/pristine.b841935e.jpg"
+  },
+  {
+    "revision": "200b4292a79863d6edcfb1403133800c",
+    "url": "/static/media/profile-pic.200b4292.jpg"
+  },
+  {
+    "revision": "643a2bfb7d8366de76a9cb9a8484373d",
+    "url": "/static/media/reactonite.643a2bfb.jpg"
   },
   {
     "revision": "b43851d8f0f96998f8a802bb45a4d1db",
@@ -82,6 +102,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "19c26af486c8065c2a0087534875ffa2",
     "url": "/static/media/sourcerer-logo.19c26af4.svg"
+  },
+  {
+    "revision": "6bff8294d50446d3dfa5be6432bf40e3",
+    "url": "/static/media/tifo.6bff8294.jpg"
   },
   {
     "revision": "acef569109296a2d9f04c1c67f5f7a3f",

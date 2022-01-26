@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.5b573ae6.chunk.css",
-    "main.js": "/static/js/main.8f1cfc7b.chunk.js",
-    "main.js.map": "/static/js/main.8f1cfc7b.chunk.js.map",
+    "main.js": "/static/js/main.81e0eece.chunk.js",
+    "main.js.map": "/static/js/main.81e0eece.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c86eeb02.js",
     "runtime-main.js.map": "/static/js/runtime-main.c86eeb02.js.map",
-    "static/js/2.41c993b8.chunk.js": "/static/js/2.41c993b8.chunk.js",
-    "static/js/2.41c993b8.chunk.js.map": "/static/js/2.41c993b8.chunk.js.map",
+    "static/js/2.cf395026.chunk.js": "/static/js/2.cf395026.chunk.js",
+    "static/js/2.cf395026.chunk.js.map": "/static/js/2.cf395026.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7f63285371afab5288a88925772bbdb1.js": "/precache-manifest.7f63285371afab5288a88925772bbdb1.js",
+    "precache-manifest.6fe4a11961805a64396f751e15de10af.js": "/precache-manifest.6fe4a11961805a64396f751e15de10af.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5b573ae6.chunk.css.map": "/static/css/main.5b573ae6.chunk.css.map",
-    "static/js/2.41c993b8.chunk.js.LICENSE.txt": "/static/js/2.41c993b8.chunk.js.LICENSE.txt",
+    "static/js/2.cf395026.chunk.js.LICENSE.txt": "/static/js/2.cf395026.chunk.js.LICENSE.txt",
+    "static/media/arham.jpg": "/static/media/arham.21656f49.jpg",
     "static/media/calendar.jpg": "/static/media/calendar.a6d73e17.jpg",
     "static/media/chat.svg": "/static/media/chat.fded8469.svg",
+    "static/media/djb.jpg": "/static/media/djb.da8a9ecd.jpg",
     "static/media/dsc.jpg": "/static/media/dsc.8f9f536f.jpg",
+    "static/media/ecosaviour.jpg": "/static/media/ecosaviour.14c82206.jpg",
     "static/media/esya-blogs.jpg": "/static/media/esya-blogs.3baaea05.jpg",
     "static/media/fairfrog.jpg": "/static/media/fairfrog.5d40a772.jpg",
     "static/media/ia.jpg": "/static/media/ia.e76c1435.jpg",
@@ -24,15 +27,18 @@
     "static/media/mywanderlust.jpg": "/static/media/mywanderlust.494a78df.jpg",
     "static/media/custom.scss": "/static/media/next.35d298c4.svg",
     "static/media/odyssey.jpg": "/static/media/odyssey.9a047efd.jpg",
-    "static/media/profile-pic.jpg": "/static/media/profile-pic.40fc0650.jpg",
+    "static/media/pristine.jpg": "/static/media/pristine.b841935e.jpg",
+    "static/media/profile-pic.jpg": "/static/media/profile-pic.200b4292.jpg",
+    "static/media/reactonite.jpg": "/static/media/reactonite.643a2bfb.jpg",
     "static/media/snakeblocks.jpg": "/static/media/snakeblocks.b43851d8.jpg",
     "static/media/sourcerer-logo.svg": "/static/media/sourcerer-logo.19c26af4.svg",
+    "static/media/tifo.jpg": "/static/media/tifo.6bff8294.jpg",
     "static/media/voyage.jpg": "/static/media/voyage.acef5691.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c86eeb02.js",
-    "static/js/2.41c993b8.chunk.js",
+    "static/js/2.cf395026.chunk.js",
     "static/css/main.5b573ae6.chunk.css",
-    "static/js/main.8f1cfc7b.chunk.js"
+    "static/js/main.81e0eece.chunk.js"
   ]
 }
