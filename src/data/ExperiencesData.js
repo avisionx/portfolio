@@ -2,6 +2,11 @@ const WorkContent = [
   {
     img: 'linkedin.jpg',
     title: 'Software Developer Engineer',
+    desc: 'LinkedIn | Fulltime Developer',
+  },
+  {
+    img: 'linkedin.jpg',
+    title: 'Software Developer Engineer',
     desc: 'LinkedIn | Internship',
   },
   {

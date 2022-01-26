@@ -14,7 +14,7 @@ const LiveWebsitesContent = [
     tags: ['flask', 'python', 'frontend', 'backend', 'ui/ux'],
     desc:
       'As website head designed and developed website for annual tech fest of IIITD.',
-    website: 'http://esya.iiitd.edu.in/',
+    website: 'https://esya19iiitd.herokuapp.com/',
     github: 'https://github.com/avisionx/esyamain',
   },
   {
@@ -23,8 +23,8 @@ const LiveWebsitesContent = [
     tags: ['jekyll', 'frontend', 'backend', 'ui/ux'],
     desc:
       'As core member of DSC; designed and developed website for Google DSC IIITD.',
-    website: 'https://dsc.iiitd.edu.in/',
-    github: 'https://github.com/dsc-iiitd/dsc-iiitd.github.io',
+    website: 'https://avisionx.github.io/dsciiitd20/',
+    github: 'https://github.com/dsc-iiitd/dsc-iiitd.github.io/tree/avisionx-readme-add',
   },
   {
     img: 'ia.jpg',
@@ -41,7 +41,7 @@ const LiveWebsitesContent = [
     tags: ['bootstrap', 'frontend', 'ui/ux'],
     desc:
       'As event head; designed and developed website for first entrepreneurial hackathon at IIITD.',
-    website: 'https://launchiiitd.tech/',
+    website: 'https://avisionx.github.io/LaunchIIITD/',
     github: 'https://github.com/avisionx/LaunchIIITD',
   },
   {
@@ -110,8 +110,7 @@ const MiniProjContent = [
     img: 'fairfrog.jpg',
     title: 'FairFrog.nl',
     tags: ['php', 'freelance', 'frontend', 'ui/ux'],
-    desc: 'Revamped landing page for a Netherlands based company.',
-    newlook: 'https://fairfrog.webhop.me/',
+    desc: 'Revamped landing page for a Netherlands based company. Old Link!',
     website: 'https://fairfrog.nl/',
   },
   {
@@ -137,7 +136,7 @@ const MiniProjContent = [
     tags: ['jekyll', 'frontend', 'backend', 'ui/ux'],
     desc:
       "Designed and developed side app to integrate with ESYA'19 website for blogging.",
-    website: 'https://esya.iiitd.edu.in/blogs/',
+    website: 'https://esya19iiitd.herokuapp.com/blogs/',
     github: 'https://github.com/avisionx/esya-blog',
   },
 ];
