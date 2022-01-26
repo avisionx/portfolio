@@ -11,6 +11,10 @@ import SourcererLogo from '../static/sourcerer-logo.svg';
 
 export const SideBarLinks = [
   {
+    link: '#softwares',
+    text: 'Tools, Softwares & Apps',
+  },
+  {
     link: '#websites',
     text: 'Web Developer',
   },

@@ -69,6 +69,19 @@ const ProjectCard = ({ card }) => {
                 </a>
               </div>
             )}
+            {card.demos &&
+              card.demos.map((demo) => (
+                <div className="col pl-2">
+                  <a
+                    href={demo.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-sm text-uppercase rounded btn-outline-main justify-content-center w-100"
+                  >
+                    {demo.name}
+                  </a>
+                </div>
+              ))}
             {card.behance && (
               <div className="col pl-2">
                 <a

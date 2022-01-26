@@ -1,5 +1,30 @@
 const LiveWebsitesContent = [
   {
+    img: 'arham.jpg',
+    title: 'Arham Alloy & Steel',
+    tags: ['react', 'hosting', 'frontend', 'backend', 'ui/ux'],
+    desc:
+      'Designed & Developed webapp for scrap recycling company. Solutions with free hosting!',
+    website: 'http://arhamalloy.com/',
+  },
+  {
+    img: 'pristine.jpg',
+    title: "Gupta's Pristine",
+    tags: ['react', 'hosting', 'frontend', 'backend', 'ui/ux'],
+    desc:
+      'Designed & Developed webapp for real estate company. Along with latest news auto feed!',
+    website: 'https://www.grouppristine.com/',
+  },
+  {
+    img: 'ecosaviour.jpg',
+    title: 'Ecosaviour Ewaste Management',
+    tags: ['react', 'hosting', 'frontend', 'backend', 'ui/ux'],
+    desc:
+      'Designed & Developed webapp for e-waste recycling company. Added custom components with animations!',
+    website: 'http://ecosaviourewaste.com/',
+  },
+
+  {
     img: 'odyssey.jpg',
     title: "ODYSSEY'20 IIITD",
     tags: ['flask', 'python', 'frontend', 'backend', 'ui/ux'],
@@ -24,7 +49,8 @@ const LiveWebsitesContent = [
     desc:
       'As core member of DSC; designed and developed website for Google DSC IIITD.',
     website: 'https://avisionx.github.io/dsciiitd20/',
-    github: 'https://github.com/dsc-iiitd/dsc-iiitd.github.io/tree/avisionx-readme-add',
+    github:
+      'https://github.com/dsc-iiitd/dsc-iiitd.github.io/tree/avisionx-readme-add',
   },
   {
     img: 'ia.jpg',
@@ -161,7 +187,71 @@ const IotContent = [
   },
 ];
 
+const ToolsAppsContent = [
+  {
+    img: 'djb.jpg',
+    title: 'Delhi Jal Board Helpdesk',
+    tags: ['goverment', 'software', 'helpdesk', 'dashboard', 'ui/ux'],
+    desc:
+      'Helpdesk portal for consumer to complaint & admin dashboard tool for analytics, details etc.',
+    demos: [
+      {
+        name: 'Demo English',
+        link:
+          'https://drive.google.com/file/d/1dGQ1xP5V_OXqyB8nSXJDikYS5TmiMmj3/view?usp=sharing',
+      },
+      {
+        name: 'Demo Hindi',
+        link:
+          'https://drive.google.com/file/d/1lX8Sf_cx1KActp7iSDu4k3oiMqSee9hq/view?usp=sharing',
+      },
+    ],
+  },
+  {
+    img: 'crams.jpg',
+    title: 'CRAMS',
+    tags: ['college', 'education', 'Ai/ML', 'webapp', 'ui/ux'],
+    desc:
+      'CRAMS short for Course Recommendation and Managment System is a tool which uses machine learning to help students pick courses with time table clash & credit tracking. Tool is used at IIIT Delhi internally!',
+    demos: [
+      {
+        name: 'Demo Video',
+        link:
+          'https://drive.google.com/file/d/1jq35VCR5GvCHgShqFAxOb29IDqMyp8Wx/view?usp=sharing',
+      },
+    ],
+  },
+  {
+    img: 'tifo.jpg',
+    title: 'Saat Seedhi',
+    tags: ['ngo', 'software', 'android', 'webapp', 'ui/ux'],
+    desc:
+      'Solution for NGO to manage student attendance and analytics dashboard tool, with app for teachers at low internet areas.',
+    product: 'https://saatseedhi.tifoindia.org/',
+    demos: [
+      {
+        name: 'Play Store',
+        link:
+          'https://play.google.com/store/apps/details?id=com.tifo.saatseedhi',
+      },
+    ],
+  },
+  {
+    img: 'reactonite.jpg',
+    title: 'Reactonite',
+    tags: ['open source', 'react', 'tool', 'education'],
+    desc:
+      'An open source tool built by our team and still actively worked upon to convert normal website to React with a single command!',
+    product: 'https://reactonite.github.io/',
+  },
+];
+
 const ProjectsData = [
+  {
+    sectionName: ' Tools & Apps & Softwares',
+    sectionId: 'softwares',
+    sectionContent: ToolsAppsContent,
+  },
   {
     sectionName: ' Live Websites',
     sectionId: 'websites',
