@@ -40,7 +40,7 @@ const EducationContent = [
   {
     img: 'iiitd.png',
     title: 'IIIT Delhi B.Tech',
-    desc: 'Computer Science with Mathematics | 2021 Batch',
+    desc: 'Computer Science with Mathematics | 9.07 CGPA | 2021 Batch',
     isLarge: true,
   },
   {
